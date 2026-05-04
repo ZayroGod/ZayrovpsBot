@@ -4,7 +4,7 @@ sudo apt update
 
 sudo apt install git -y
 
-git clone 
+git clone https://github.com/ZayroGod/ZayrovpsBot.git
 
 sudo apt install python3-pip -y
 
@@ -16,4 +16,4 @@ https://discord.com/developers/applications
 
 nano .env
 
-python3 lightplays_bot.py
+python3 Zayro_bot.py
