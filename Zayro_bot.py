@@ -56,7 +56,7 @@ DEFAULT_OS_IMAGE = os.getenv('DEFAULT_OS_IMAGE', 'ubuntu:22.04')
 DOCKER_NETWORK = os.getenv('DOCKER_NETWORK', 'bridge')
 MAX_CONTAINERS = int(os.getenv('MAX_CONTAINERS', '100'))
 DB_FILE = 'lightplays.db'
-BACKUP_FILE = 'lightplays_backup.pkl'
+BACKUP_FILE = 'Vantix_backup.pkl'
 
 # Known miner process names/patterns
 MINER_PATTERNS = [
